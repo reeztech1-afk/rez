@@ -1,0 +1,80 @@
+{
+  "scene_2_direction": {
+    "title": "Waist-Length Braid Transformation, Ali x OUTRE X-Pression 42\" Pre-Stretched Braid",
+    "model_chain": "Soul ID (locked) -> Soul 2.0 still -> Kling/Genjutsu animate -> lipsync on hook",
+    "aspect_ratio": "9:16 vertical",
+    "duration_seconds": 10,
+    "resolution": "1080p",
+    "series_note": "Scene 1 runs 10s, Scene 2 runs 10s, Scene 3 onward carries the next duration tier (12s) for the series rhythm.",
+
+    "character_lock": {
+      "description": "Ali, the same woman as scene 1: early 20s, African American mixed with Hispanic blended features, soft oval face, full lips, dark brown eyes, faint freckles across nose and cheeks, warm brown-gold skin with realistic texture, curvy-athletic frame. Clean glam makeup with a slightly bolder lip this time, glossy caramel-brown.",
+      "wardrobe": "oversized graphic tee tucked into biker shorts, gold hoops, hair in a low bun at the start and transformed to waist-length box braids by the end, clear glossy nails",
+      "expression_throughline": "casual and relaxed at the start, focused during the parting shot, then confident show-off energy for the final reveal",
+      "consistency_rule": "same locked Soul ID as scene 1, identical face shape, skin tone, freckles and features. Only the hair changes."
+    },
+
+    "set_and_staging": {
+      "location": "the same home beauty room as scene 1, afternoon this time, for series continuity",
+      "background": "same white and gold vanity now with a tripod ring light, a mannequin head with a braiding stand visible to the side, hair packs fanned out on the table, warm afternoon light through the window",
+      "props": "three packs of OUTRE X-Pression 3X Pre-Stretched Braid 42 inch laid out on the vanity with the packaging fronts readable, rat tail comb with a yellow handle, hair clips, edge control jar, a small spray bottle",
+      "product_lock": "the braid packs use the real packaging image from https://cdn.shopify.com/s/files/1/0018/1973/8221/files/1_69c5521a-011d-402b-b1a3-f1da43286471.jpg?v=1727737368, brand colors and text must stay accurate and readable in at least two frames"
+    },
+
+    "lighting": "warm afternoon window light from the right with soft ring light fill from the front, strong specular highlight on the braid length during the final reveal so the 42 inch drop reads on camera, gentle rim light on her shoulders, true-to-skin color rendering, no orange color cast",
+
+    "action_timeline": [
+      { "time": "0.0-1.5s", "beat": "open medium shot, Ali in a low bun holding two packs of the OUTRE braid up next to her cheeks like phone panels, pack fronts readable to camera, she raises one eyebrow" },
+      { "time": "1.5-3.0s", "beat": "whip-pan down to a close-up of the rat tail comb parting a clean section at her crown, clips snap in, one-frame blur transition" },
+      { "time": "3.0-6.5s", "beat": "the transformation timelapse: braiding hands move in sped-up passes, braid length grows past her shoulder, past her chest, down to her waist, face stays stable in the top third of frame" },
+      { "time": "6.5-8.5s", "beat": "she stands, the camera tilts smoothly down the full 42 inch length from crown to waist, braids catch the afternoon light, she sweeps them over one shoulder" },
+      { "time": "8.5-10.0s", "beat": "she looks back over her shoulder at the camera with the proud smile and delivers the lipsync hook, hold the pose, bottom third clean for the price end-card" }
+    ],
+
+    "camera_direction": {
+      "primary_move": "static medium shots with one smooth top-to-bottom tilt for the length reveal",
+      "transition": "two whip-pan blurs as timeline cuts, matching the classic braid-timelapse UGC format",
+      "reveal": "vertical tilt shot for the 42 inch drop, the single most rewatchable moment, keep it smooth and slow",
+      "higgsfield_camera_moves": ["static hold", "tilt down full length", "whip pan transition"],
+      "framing": "medium shot for the open, close-up on the part, medium-long for the braiding sequence, full-length vertical for the reveal",
+      "depth_of_field": "medium depth for the braiding sequence so the length reads, shallow on the final mirror smile"
+    },
+
+    "lipsync": {
+      "line": "Four dollars. Waist length.",
+      "timing": "8.5-10.0s",
+      "delivery": "disbelieving deadpan that breaks into a grin, slight shoulder shimmy on the last word, natural mouth movement"
+    },
+
+    "caption": "Waist length braids from a four dollar pack. Pre-stretched means no trip to the salon and no tangle fight halfway through. This exact 42 inch OUTRE pack is at Ali Beauty Supply. AI-generated creator.",
+
+    "motion_settings": {
+      "animate_model": "Kling or Genjutsu",
+      "motion_strength": "medium-high for the braiding timelapse only, medium for the reveal",
+      "source_still": "the 7.5s frame mid-tilt, braids at full waist length catching the light",
+      "stability_notes": "face must stay locked during the timelapse, hands in natural braiding positions with 5 fingers, braid physics on stiff-yaky setting so lengths move as ropes not loose strands, no morphing between braid counts"
+    },
+
+    "negative_prompt": "no distorted hands, no extra fingers, no face morph during timelapse, no plastic skin, no unreadable packaging, no color cast on skin, no missing braids between frames, no background people, no text artifacts, no watermarks, no wavy undefined lengths (these are straight yaki braids), no fast full-frame shake",
+
+    "verify_before_export": [
+      "pack text X-Pression 42 is readable in at least two frames",
+      "braid length visibly reaches her waist in the reveal",
+      "Ali's face matches the locked Soul ID in every frame including during the timelapse",
+      "caption has no em dashes and ends with the AI disclosure",
+      "end-card bottom third clean for the real pack image, the 4.00 price and Shop now at Ali Beauty Supply"
+    ],
+
+    "product": {
+      "name": "OUTRE Braids X-Pression 3X Pre Stretched Braid 42\"",
+      "url": "https://alibeautysupply.com/products/outre-braids-x-pression-3x-pre-stretched-braid",
+      "price": "4.00",
+      "texture": "yaki straight",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0018/1973/8221/files/1_69c5521a-011d-402b-b1a3-f1da43286471.jpg?v=1727737368",
+        "https://cdn.shopify.com/s/files/1/0018/1973/8221/files/2_44b31b1c-5a2f-4742-adb4-054da1c5b447.jpg?v=1727737368",
+        "https://cdn.shopify.com/s/files/1/0018/1973/8221/files/1_fd97f324-f6ed-46a8-8b36-09ed50edfa41.jpg?v=1727737368"
+      ]
+    }
+  }
+}
