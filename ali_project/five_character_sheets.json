@@ -1,0 +1,87 @@
+{
+  "project": {
+    "name": "5 AI Influencer Character Sheet Set",
+    "reference_style_source": "buyer uploaded lookbook sheet: two-frame composite, half-body front view plus full-body view, plain white seamless background, soft even studio lighting, natural makeup, photorealistic catalog quality",
+    "sheet_format": "every character is generated as a two-frame character sheet: frame A half-body front facing camera, frame B full body standing straight, arms relaxed, looking directly at the lens",
+    "global_rules": {
+      "photorealism": "true photographic quality, real skin texture with pores and fine hairs, no illustration, no 3D render look, no over-smoothing",
+      "background": "plain white seamless studio background in every frame",
+      "lighting": "soft even studio lighting, minimal shadows, large softbox front fill plus subtle hair light, color accurate skin tones",
+      "camera": "shot on 85mm lens at f/5.6, catalog lookbook framing, high resolution, sharp focus on eyes",
+      "consistency": "each character keeps the same face, hair and features across every future generation, lock each one as a separate Soul ID",
+      "no_em_dashes_in_any_copy": true
+    }
+  },
+
+  "characters": [
+    {
+      "id": "character_1",
+      "name": "Maya",
+      "role": "beauty and makeup influencer",
+      "age": "early 20s",
+      "ethnicity": "African American mixed with Hispanic",
+      "sheet_prompt": {
+        "frame_a_half_body": "Photorealistic studio character sheet, half-body front view of Maya, a woman in her early 20s who is African American mixed with Hispanic with blended features, soft oval face, full lips, dark brown eyes, faint freckles, warm brown-gold skin with realistic texture and visible pores, long dark natural curls falling past her shoulders, natural glam makeup with brushed-up brows, soft brown eyeshadow, mascara, glossy nude-brown lip, wearing a light blue denim jacket over a brown ribbed top, thin gold hoop earrings, standing against a plain white seamless studio background, looking directly at the camera with a calm confident expression, soft even studio lighting with minimal shadows, shot on 85mm f/5.6, catalog lookbook quality",
+        "frame_b_full_body": "Same woman Maya, same face and features, full-body standing straight facing the camera with arms relaxed at her sides, light blue denim jacket over a brown ribbed top, light blue high-waist denim jeans, brown leather sneakers, small gold necklace, plain white seamless background, soft even studio light, photorealistic, catalog lookbook framing"
+      },
+      "paste_ready": "Photorealistic two-frame character sheet on a plain white studio background, half-body and full-body of Maya, a woman in her early 20s who is African American mixed with Hispanic, soft oval face with full lips, dark brown eyes, faint freckles, warm brown-gold skin with realistic texture, long dark natural curls, natural glam makeup with glossy nude-brown lip, light blue denim jacket over a brown ribbed top, denim jeans, brown leather sneakers, thin gold hoops, standing straight with arms relaxed, looking directly at the camera, soft even studio lighting, minimal shadows, shot on 85mm f/5.6, catalog quality. No illustration, no 3D render, no plastic skin, no warped hands, no text artifacts."
+    },
+    {
+      "id": "character_2",
+      "name": "Zara",
+      "role": "fashion and style influencer",
+      "age": "mid 20s",
+      "ethnicity": "Black African",
+      "sheet_prompt": {
+        "frame_a_half_body": "Photorealistic studio character sheet, half-body front view of Zara, a Black African woman in her mid 20s, deep rich brown skin with realistic texture, high cheekbones, warm brown eyes, full lips in a soft berry gloss, neat coily updo with a few face-framing tendrils, subtle natural makeup with defined brows, wearing a light blue denim jacket over a cream knit top and thin layered gold chains, standing against a plain white seamless studio background, calm direct gaze, soft even studio lighting with minimal shadows, shot on 85mm f/5.6, catalog lookbook quality",
+        "frame_b_full_body": "Same woman Zara, same face and features, full-body standing straight facing the camera with arms relaxed, light blue denim jacket over a cream knit top, tailored camel trousers, white minimal sneakers, layered gold chains, plain white seamless background, soft even studio light, photorealistic, catalog lookbook framing"
+      },
+      "paste_ready": "Photorealistic two-frame character sheet on a plain white studio background, half-body and full-body of Zara, a Black African woman in her mid 20s, deep rich brown skin with realistic texture, high cheekbones, warm brown eyes, full lips with soft berry gloss, neat coily updo with face-framing tendrils, light blue denim jacket over a cream knit top, camel trousers, white sneakers, layered gold chains, standing straight, direct calm gaze, soft even studio lighting, minimal shadows, shot on 85mm f/5.6, catalog quality. No illustration, no 3D render, no plastic skin, no warped hands, no text artifacts."
+    },
+    {
+      "id": "character_3",
+      "name": "Camila",
+      "role": "skincare and wellness influencer",
+      "age": "early 20s",
+      "ethnicity": "Hispanic Latina",
+      "sheet_prompt": {
+        "frame_a_half_body": "Photorealistic studio character sheet, half-body front view of Camila, a Hispanic Latina woman in her early 20s, light olive skin with realistic texture and a natural dewy finish, dark expressive eyes, softly arched brows, full lips in a sheer pink tint, long straight dark brown hair with a middle part and glossy shine, minimal no-makeup makeup look, wearing a light blue denim jacket over a brown fitted top, small silver studs, standing against a plain white seamless studio background, fresh direct gaze, soft even studio lighting with minimal shadows, shot on 85mm f/5.6, catalog lookbook quality",
+        "frame_b_full_body": "Same woman Camila, same face and features, full-body standing straight facing the camera with arms relaxed, light blue denim jacket over a brown fitted top, white wide-leg trousers, tan flat sandals, plain white seamless background, soft even studio light, photorealistic, catalog lookbook framing"
+      },
+      "paste_ready": "Photorealistic two-frame character sheet on a plain white studio background, half-body and full-body of Camila, a Hispanic Latina woman in her early 20s, light olive skin with a natural dewy finish and realistic texture, dark expressive eyes, full lips with sheer pink tint, long straight dark brown hair with a middle part, minimal no-makeup makeup, light blue denim jacket over a brown fitted top, white wide-leg trousers, tan sandals, small silver studs, standing straight, fresh direct gaze, soft even studio lighting, minimal shadows, shot on 85mm f/5.6, catalog quality. No illustration, no 3D render, no plastic skin, no warped hands, no text artifacts."
+    },
+    {
+      "id": "character_4",
+      "name": "Imani",
+      "role": "hair and protective styles influencer",
+      "age": "late 20s",
+      "ethnicity": "African American",
+      "sheet_prompt": {
+        "frame_a_half_body": "Photorealistic studio character sheet, half-body front view of Imani, an African American woman in her late 20s, medium brown skin with realistic texture, strong graceful features, dark brown eyes, full lips in a soft terracotta matte, shoulder-length box braids with blonde caramel tips, natural polished makeup with soft bronze eyeshadow, wearing a light blue denim jacket over a brown suede top, gold statement earrings, standing against a plain white seamless studio background, poised direct gaze, soft even studio lighting with minimal shadows, shot on 85mm f/5.6, catalog lookbook quality",
+        "frame_b_full_body": "Same woman Imani, same face and features, full-body standing straight facing the camera with arms relaxed, light blue denim jacket over a brown suede top, black straight-leg pants, brown ankle boots, gold statement earrings, plain white seamless background, soft even studio light, photorealistic, catalog lookbook framing"
+      },
+      "paste_ready": "Photorealistic two-frame character sheet on a plain white studio background, half-body and full-body of Imani, an African American woman in her late 20s, medium brown skin with realistic texture, dark brown eyes, full lips with soft terracotta matte, shoulder-length box braids with caramel blonde tips, soft bronze eyeshadow, light blue denim jacket over a brown suede top, black straight-leg pants, brown ankle boots, gold statement earrings, standing straight, poised direct gaze, soft even studio lighting, minimal shadows, shot on 85mm f/5.6, catalog quality. No illustration, no 3D render, no plastic skin, no warped hands, no text artifacts."
+    },
+    {
+      "id": "character_5",
+      "name": "Sofia",
+      "role": "nails and lifestyle influencer",
+      "age": "early 20s",
+      "ethnicity": "Afro Latina",
+      "sheet_prompt": {
+        "frame_a_half_body": "Photorealistic studio character sheet, half-body front view of Sofia, an Afro Latina woman in her early 20s, tan brown skin with realistic texture, round soft face with full lips in a glossy caramel tint, dark brown almond eyes, long dark curls half tied up with a claw clip, light freckles, playful warm smile, natural makeup with feathered brows, wearing a light blue denim jacket over a brown baby tee, thin gold rings on well-manicured hands with a fresh glossy almond nail set, standing against a plain white seamless studio background, soft even studio lighting with minimal shadows, shot on 85mm f/5.6, catalog lookbook quality",
+        "frame_b_full_body": "Same woman Sofia, same face and features, full-body standing straight facing the camera with arms relaxed, light blue denim jacket over a brown baby tee, light-wash denim shorts, white platform sneakers, claw clip in her hair, glossy almond manicure, plain white seamless background, soft even studio light, photorealistic, catalog lookbook framing"
+      },
+      "paste_ready": "Photorealistic two-frame character sheet on a plain white studio background, half-body and full-body of Sofia, an Afro Latina woman in her early 20s, tan brown skin with realistic texture and light freckles, full lips with glossy caramel tint, dark brown almond eyes, long dark curls half tied up with a claw clip, light blue denim jacket over a brown baby tee, light-wash denim shorts, white platform sneakers, thin gold rings and a fresh glossy almond manicure, playful warm smile, soft even studio lighting, minimal shadows, shot on 85mm f/5.6, catalog quality. No illustration, no 3D render, no plastic skin, no warped hands, no text artifacts."
+    }
+  ],
+
+  "usage_pipeline": {
+    "step_1": "Generate each character sheet with the paste_ready prompt, verify frame A face detail and frame B body proportions before anything else",
+    "step_2": "Upload each character's sheet as its own Soul ID in Higgsfield and let it lock for 3 to 5 minutes, one Soul ID per character, never mix them",
+    "step_3": "Generate lane content per character: Maya covers makeup, Zara covers fashion and styling, Camila covers skincare and wellness, Imani covers hair and protective styles, Sofia covers nails and lifestyle",
+    "step_4": "Animate the best still of each character with Kling or Genjutsu, keep motion strength medium so the face stays locked",
+    "step_5": "Label every post as AI-generated per platform rules",
+    "verify_for_every_image": ["5 fingers per hand", "same face as the sheet in every frame", "real skin texture with pores", "clean white background with no gray cast", "no text artifacts or watermarks"]
+  }
+}
