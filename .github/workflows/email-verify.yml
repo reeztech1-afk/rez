@@ -7,6 +7,11 @@ on:
         description: "Optional: paste emails one per line (blank = use tools/verify_queue.txt)"
         required: false
         default: ""
+  push:
+    branches: ["**"]
+    paths:
+      - "tools/verify_queue.txt"
+      - "tools/smtp_verify.py"
   schedule:
     # Wednesdays 09:30 UTC
     - cron: "30 9 * * 3"
@@ -26,7 +31,7 @@ jobs:
         run: pip install dnspython
 
       - name: Write queue from input if provided
-        if: ${{ inputs.queue != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.queue != '' }}
         run: printf '%s\n' "${{ inputs.queue }}" > tools/verify_queue.txt
 
       - name: Run SMTP verifier

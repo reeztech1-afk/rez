@@ -7,6 +7,11 @@ on:
         description: "Run the bounce-rescue contact form solver"
         required: false
         default: ""
+  push:
+    branches: ["**"]
+    paths:
+      - "tools/bounce_targets.json"
+      - "tools/contact_solver.py"
   schedule:
     # Mondays 09:00 UTC
     - cron: "0 9 * * 1"
