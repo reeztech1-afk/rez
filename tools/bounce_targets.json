@@ -133,5 +133,14 @@
       "https://nailwraps.ca/pages/contact",
       "https://manicurefx.com/pages/contact"
     ]
+  },
+  {
+    "brand": "BossCaddi",
+    "root": "https://www.bosscaddi.com",
+    "urls": [
+      "https://www.bosscaddi.com/pages/contact",
+      "https://www.bosscaddi.com"
+    ],
+    "message": "Hi BossCaddi team, I put together a small unofficial concept of how a salon buildout could look as a short video for your feed. Quick question: when a salon owner clicks your ad, do you want them landing on a product page or a full setup package? Happy to send the link if you're curious."
   }
 ]
