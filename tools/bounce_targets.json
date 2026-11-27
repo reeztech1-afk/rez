@@ -127,10 +127,11 @@
   },
   {
     "brand": "Nail Wraps",
-    "domain": "nailwraps.ca",
-    "site": "https://nailwraps.ca",
-    "contact_page": "https://nailwraps.ca/pages/contact",
-    "note": "support@nailwraps.ca 550 5.1.1 (wave36); rescue support@manicurefx.com also 550 5.1.1 on 2026-11-27. Both site-printed addresses dead. Try form + IG.",
-    "message": "Hi Nail Wraps team, I put together a small unofficial concept of how the 10-minute manicure could look as a short video for your feed. Quick question: when someone clicks an ad for the wraps, where do you want them to land? Happy to send the link if you're curious."
+    "message": "Hi Nail Wraps team, I put together a small unofficial concept of how the 10-minute manicure could look as a short video for your feed. Quick question: when someone clicks an ad for the wraps, where do you want them to land? Happy to send the link if you're curious.",
+    "root": "https://nailwraps.ca",
+    "urls": [
+      "https://nailwraps.ca/pages/contact",
+      "https://manicurefx.com/pages/contact"
+    ]
   }
 ]
