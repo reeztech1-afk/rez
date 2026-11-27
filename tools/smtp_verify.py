@@ -55,6 +55,12 @@ def verify(email):
     mxs = mx_hosts(domain)
     if not mxs:
         return {"email": email, "verdict": "INVALID", "detail": "no MX / dead domain"}
+    # Big-provider servers block datacenter/runner IPs at connect time.
+    # RCPT probing is only meaningful for independent mail servers.
+    BIG = ("google", "gmail-smtp", "outlook", "protection.outlook", "smtp.secureserver", "mailstore1", "googlemail")
+    if any(any(b in m.lower() for b in BIG) for m in mxs):
+        return {"email": email, "verdict": "PROBE_BLOCKED",
+                "detail": "big-provider MX rejects runner IPs; use MX check + bounce observation"}
     tried = []
     for mx in mxs[:2]:
         status, info = probe(mx, email)
