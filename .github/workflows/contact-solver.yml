@@ -1,0 +1,42 @@
+name: Contact Form Solver
+
+on:
+  workflow_dispatch:
+    inputs:
+      nothing:
+        description: "Run the bounce-rescue contact form solver"
+        required: false
+        default: ""
+  schedule:
+    # Mondays 09:00 UTC
+    - cron: "0 9 * * 1"
+
+jobs:
+  solve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run contact solver
+        run: python3 tools/contact_solver.py tools
+
+      - name: Show verdicts
+        run: |
+          python3 - <<'PY'
+          import json
+          for r in json.load(open("tools/form_solver_results.json")):
+              print(f"{r['brand']:28s} {r['result']:20s} emails={r['emails'][:3]}")
+          PY
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: contact-solver-results
+          path: |
+            tools/form_solver_results.json
+            tools/dm_message_pack.md
+          if-no-files-found: error
