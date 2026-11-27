@@ -1,2 +1,17 @@
 # SMTP mailbox verification queue - fill with emails to level-2 verify
 # (emails that are MX-ok but suspicious, or bounced, or no-site-email list emails)
+
+# bounces found 2026-11-27 (waves 31-36)
+rafinoskin@gmail.com
+hi@stateofchangeparfum.com
+info@libikishop.com
+support@nailwraps.ca
+sales@fearthebeardofficial.ca
+info@curlwrld.com
+customerservice@blaqluxury.com
+olivia@byforgo.com
+support@moontimestore.com
+info@laceclips.com
+info@minibloom.com
+customersupport@trilogylaboratories.com
+copyright@trendstarter.com
