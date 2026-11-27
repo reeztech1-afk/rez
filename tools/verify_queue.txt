@@ -1,0 +1,2 @@
+# SMTP mailbox verification queue - fill with emails to level-2 verify
+# (emails that are MX-ok but suspicious, or bounced, or no-site-email list emails)

@@ -1,0 +1,39 @@
+name: Email Verifier
+
+on:
+  workflow_dispatch:
+    inputs:
+      queue:
+        description: "Optional: paste emails one per line (blank = use tools/verify_queue.txt)"
+        required: false
+        default: ""
+  schedule:
+    # Wednesdays 09:30 UTC
+    - cron: "30 9 * * 3"
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dnspython
+        run: pip install dnspython
+
+      - name: Write queue from input if provided
+        if: ${{ inputs.queue != '' }}
+        run: printf '%s\n' "${{ inputs.queue }}" > tools/verify_queue.txt
+
+      - name: Run SMTP verifier
+        run: python3 tools/smtp_verify.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: smtp-verify-results
+          path: tools/smtp_verify_results.json
+          if-no-files-found: error
